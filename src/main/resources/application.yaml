@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      database: employee_db
+      host: localhost
+      port: 27017
+      username: root
+      password: root
+      authentication-database: admin
